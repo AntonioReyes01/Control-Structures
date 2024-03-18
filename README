@@ -1,0 +1,20 @@
+//If else if statement
+ public class GradeChecker {
+    public static void main(String[] args) {
+        // Define a variable for a student's grade
+        int grade = 85;
+
+        // Determine the grade level based on the score
+        if (grade >= 90) {
+            System.out.println("Grade: A");
+        } else if (grade >= 80) {
+            System.out.println("Grade: B");
+        } else if (grade >= 70) {
+            System.out.println("Grade: C");
+        } else if (grade >= 60) {
+            System.out.println("Grade: D");
+        } else {
+            System.out.println("Grade: F");
+        }
+    }
+}
